@@ -1,0 +1,39 @@
+.gen-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.699);
+}
+.operator {
+  background-color: rgb(195, 195, 195);
+}
+.result-calc-cont {
+  background-color: red;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 15px;
+}
+.btn {
+  width: 80px;
+  height: 60px;
+  border: 1px solid rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.calc {
+  font-size: 2rem;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+.result {
+  color: rgba(255, 255, 255, 0.693);
+}
+.clear {
+  width: 100%;
+}
